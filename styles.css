@@ -316,6 +316,11 @@ h1 {
     gap: 8px;
     margin-top: 15px;
 }
+.sobre-mi .contenedor {
+    text-align: center;
+    margin: 0 auto;
+}
+
 
 .contacto-form-card input,
 .contacto-form-card textarea {
