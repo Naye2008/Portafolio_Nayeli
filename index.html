@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Nayeli Morales">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <title>Mi portafolio</title>
+    <link rel="icon" type="imagen/x-icon" href="imagenes/diseno-flor-loto-rosa_1300464-6502.avif">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&family=Cookie&family=DynaPuff:wght@400..700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Rubik+Maps&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Ultra&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navar-light" id="arriba">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-Toggler"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-Toggler">
+                <a class="navbar-brand" href="#">
+                    <img src="./imagenes/diseno-flor-loto-rosa_1300464-6502.avif" width="50"
+                        alt="Logo de la pagina web">
+                </a>
+                <ul class="navbar-nav d-flex justify-conter-center aling-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <section class="hero aling-items-stretch">
+        <div class="hero-principal">
+            <img class="hero-img rounded-circle" src="./imagenes/IMG_20210319_172201.jpg" width="50"
+                alt="Foto de Nayeli Morales">
+            <h1>Hola, soy Nayeli Morales</h1>
+            <h2> Desarrolladora Full Stack Java</h2>
+            <a href="cv/NAYELI MORALES MEDINA.pdf" target="_blank" rel="noopener noreferrer" class="btn-cv-pro">
+                <i class="bi bi-file-earmark-person"></i>
+                Ver CV
+            </a>
+
+
+        </div>
+        <div class="hero-inferior">
+        </div>
+    </section>
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+        <div class="contenedor">
+            <h2 class="seccion-titulo">Conoce a Nayeli Morales Medina</h2>
+            <p class="seccion-texto">Soy desarrolladora Full Stack Java con pasión por crear soluciones web
+                completas, desde interfaces limpias y atractivas hasta sistemas backend
+                robustos y bien estructurados.
+                <br><br>
+                Me gusta trabajar con buenas prácticas, escribir código limpio y aprender
+                constantemente nuevas tecnologías. Disfruto transformar ideas en productos
+                funcionales que aporten valor real a los usuarios.
+                <br><br>
+                Busco oportunidades donde pueda crecer profesionalmente, aportar mis
+                conocimientos y colaborar en proyectos desafiantes.
+        </div>
+
+    </section>
+    <section id="skills" class="skills-flip seccion-clara ">
+        <h2 class="seccion-titulo">Skills</h2>
+
+        <div class="flip-grid">
+            <div class="flip-card">
+                <div class="flip-inner">
+                    <div class="flip-front">
+                        <i class="bi bi-code-slash"></i>
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="flip-back">
+                        <h4>HTML<br><br>
+                            CSS<br><br>
+                            JavaScript<br><br>
+                            Bootstrap</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-inner">
+                    <div class="flip-front">
+                        <i class="bi bi-cpu"></i>
+                        <h3>Backend Java</h3>
+                    </div>
+                    <div class="flip-back">
+                        <h4>Java<br><br>
+                            Spring Boot</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-inner">
+                    <div class="flip-front">
+                        <i class="bi bi-database"></i>
+                        <h3>Base de Datos</h3>
+                    </div>
+                    <div class="flip-back">
+                        <h4>MySQL<br><br>
+                            Oracle<br><br>
+                            SQL</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+    <section id="proyectos" class="proyectos seccion-oscura d-flex flex-column">
+        <h1 class="texto-blanco"> Mis proyectos</h1>
+        <h2 class="seccion-descripcion">Estos son algunos preyectos que he creado recientemente</h2>
+
+        <div class="container text-center proyectos-contenedor">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="flip-card animar">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="/imagenes/logo.jpeg" alt="Blood Studio">
+                                <h4>Proyecto Blood Studio</h4>
+                            </div>
+                            <div class="flip-card-back">
+                                <p>E-commerce con catálogo, carrito y contacto. UI responsive y componentes
+                                    reutilizables.</p>
+                                <p>Proyecto web con HTML, CSS, JS, Git, Java</p>
+
+                                <div class="iconos-contenedor">
+                                    <a href="https://github.com/BloodSttudio-LosError404/Blood-Studio" target="_blank" rel="noopener noreferrer"><i class="bi bi-github" target="_blank" rel="noopener noreferrer"></i></a>
+                                    <a href="https://bloodsttudio-loserror404.github.io/Blood-Studio/" target="_blank" rel="noopener noreferrer"><i class="bi bi-box-arrow-up-right"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="flip-card animar">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="/imagenes/Captura de pantalla 2026-01-27 220429.png" alt="API_CLIMA">
+                                <h4>API Integration</h4>
+                            </div>
+                            <div class="flip-card-back">
+                                <P>Aplicación web que consume una API pública de clima para mostrar información en tiempo real según coordenadas ingresadas</P>
+                                <p>Proyecto web con HTML, JS, Fetch API</p>
+
+                                <div class="iconos-contenedor">
+                                    <a href="https://github.com/Naye2008/laboratorio_Weather" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                                    <a href="https://naye2008.github.io/laboratorio_Weather/" target="_blank" rel="noopener noreferrer"><i class="bi bi-box-arrow-up-right"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="flip-card animar">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="/imagenes/Captura de pantalla 2026-01-27 220942.png" alt="Proyecto">
+                                <h4>Generation Tennis</h4>
+                            </div>
+                            <div class="flip-card-back">
+                                <P>E-commerce de una tienda de tenis en la cual se desarrollo un catago de preoductos y animaciones</P>
+                                <p>Proyecto web con HTML, CSS y JS</p>
+
+                                <div class="iconos-contenedor">
+                                    <a href="https://github.com/Naye2008/Hackathon1" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                                    <a href="https://naye2008.github.io/Hackathon1/" target="_blank" rel="noopener noreferrer"><i class="bi bi-box-arrow-up-right"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section id="contacto" class="contacto-moderno seccion-clara">
+        <div class="container contacto-grid">
+            <div class="contacto-info">
+                <h2>Contacto</h2>
+                <p>¿Quieres que colaboremos?
+                    Me encanta construir productos con buen diseño y base sólida.
+                </p>
+                <div class="contacto-links">
+                    <a href="mailto:nayeli@email.com" class="contacto-chip" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-envelope"></i>
+                        moralesmedinanayeli@gmail.com
+                    </a>
+                    <a href="https://www.linkedin.com/in/nayeli-morales-desarrollador-full-stack/" class="contacto-chip" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-linkedin"></i>
+                        LinkedIn
+                    </a>
+                    <a href="https://github.com/Naye2008" class="contacto-chip" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-github"></i>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+            <div class="contacto-form-card">
+                <h3>
+                    <i class="bi bi-chat-dots"></i>
+                    Mensaje rápido
+                </h3>
+                <form action="https://formsubmit.co/moralesmedinanayeli@gmail.com" method="POST">
+                    <label>
+                        <i class="bi bi-person"></i>
+                        Nombre
+                    </label>
+                    <input type="text" name="nombre" required>
+
+                    <label>
+                        <i class="bi bi-envelope"></i>
+                        Email
+                    </label>
+                    <input type="email" name="email" required>
+
+                    <label>
+                        <i class="bi bi-chat-left-text"></i>
+                        Mensaje
+                    </label>
+                    <textarea name="mensaje" rows="4" required></textarea>
+
+                    <button type="submit">
+                        <i class="bi bi-send"></i>
+                        Enviar
+                    </button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+    <footer class="footer-moderno">
+        <p>
+            © 2026 Nayeli Morales
+        </p>
+
+        <a href="#arriba" class="volver-arriba">
+            Volver arriba
+            <i class="bi bi-arrow-up"></i>
+        </a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
